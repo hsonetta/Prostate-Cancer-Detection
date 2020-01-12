@@ -4,7 +4,7 @@ Applying various Machine Learning techniques and algorithms on Prostate Cancer G
 
 In this project, two datasets are utilized, one is the patient gene dataset and the clinical dataset which consists of clinical features for each patient. Different machine learning techniques were applied to select bio-markers or genes out of 20k genes that are relevant to predict patients gleason score. The pipeline in Prostate_Cancer_detection.ipynb is as follows:
 
-1. Outlier Removal: Outliers strongly influence the machine learning models training phase.removed the outliers using tree ensembling technique called Isolation forests. This technique allows to explicitly identifies anomalies instead of profiling normal data points
+1. Outlier Removal: Outliers strongly influence the machine learning models training phase. Eliminated the outliers using tree ensembling technique called Isolation forests. This technique allows to explicitly identifies anomalies instead of profiling normal data points
 
 2. Data preprocessing: Performed standard scaling to scale the dataset, used variance thresholding technique to eliminate the features that has less variance or no significant information. As the data was heavily imbalanced, SMOTEENN module from Imblearn was used to resample and balance the dataset.
 
